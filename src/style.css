@@ -18,3 +18,16 @@
     border-color: darkred !important;
     color: white !important;
 }
+
+.card-posicao-imagem{
+    object-fit: cover;
+    height: 200px;
+}
+
+.img-beterraba{
+    object-position: 0% 78%;
+}
+
+.card-largura{
+    max-width: 18rem;
+}

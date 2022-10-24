@@ -14,27 +14,27 @@
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-    <a class="navbar-brand" href="#">fruta & fruto</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Quem Somos</a>
-        <a class="nav-link disabled">Contatos</a>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <a class="navbar-brand" href="#">fruta & fruto</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <ul class="navbar-nav">
+          <li><a class="nav-link active" href="#">Início<span class="sr-only">(current)</span></a></li>
+          <li></li><a class="nav-link" href="#">Receitas</a></li>
+          <li></li><a class="nav-link" href="#">Quem Somos</a></li>
+          <li></li><a class="nav-link disabled">Contatos</a></li>
+        </ul>
       </div>
-    </div>
-  </nav>
-
-  <title>fruta & fruto</title>
+    </nav>
+  </header>
 
 
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="3000">
+<main>
+  <section id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="3000">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -61,65 +61,101 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </button>
-  </div>
+  </section>
 
-  <h1 class="text-center fonte-titulo cor-especial pt-5">Receitas para economizar e ganhar saúde</h1>
-  <p class="text-center text-secondary pb-5">Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar,
-    ganhar tempo e praticidade</p>
+  <section id="titulos">
+    <h1 class="text-center fonte-titulo cor-especial pt-5">Receitas para economizar e ganhar saúde</h1>
+    <p class="text-center text-secondary pb-5">Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar,
+     ganhar tempo e praticidade</p>
+  </section>
 
-  <div class="card" style="width: 18rem;">
-    <img src="src/img/receita-abacate.jpg" alt="tigela com salada de abacate, vista superior">
+  <section class="container-fluid bg-light" id="receitas">
+    <div class="row justify-content-center">
+  <article class="card card-largura p-0 m-4">
+    <img src="src/img/receita-abacate.jpg" alt="tigela com salada de abacate, vista superior" class="card-img-top card-posicao-imagem">
     <div class="card-body">
       <h5 class="card-title">Tigela de abacate</h5>
       <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
       <a href="#" class="btn botao-cor-especial">Veja a Receita</a>
     </div>
-  </div>
+  </article>
 
-  <div class="card" style="width: 18rem;">
-    <img src="src/img/receita-kiwi.jpg" alt="tigela com salada de abacate, vista superior">
+  <article class="card card-largura p-0 m-4">
+    <img src="src/img/receita-kiwi.jpg" alt="tigela com salada de abacate, vista superior" class="card-img-top card-posicao-imagem">
     <div class="card-body">
       <h5 class="card-title">Salada de kiwi</h5>
       <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
       <a href="#" class="btn botao-cor-especial">Veja a Receita</a>
     </div>
-  </div>
+  </article>
 
-  <div class="card" style="width: 18rem;">
-    <img src="src/img/receita-mix.jpg" alt="prato com mix de vegetais e mão de pessoa adicionando azeite, vista superior">
+  <article class="card card-largura p-0 m-4">
+    <img src="src/img/receita-mix.jpg" alt="prato com mix de vegetais e mão de pessoa adicionando azeite, vista superior" class="card-img-top card-posicao-imagem">
     <div class="card-body">
       <h5 class="card-title">Mix de vegetais</h5>
       <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
       <a href="#" class="btn botao-cor-especial">Veja a Receita</a>
     </div>
-  </div>
+  </article>
 
-  <div class="card" style="width: 18rem;">
-    <img src="src/img/receita-pimentoes.jpg">
+  <article class="card card-largura p-0 m-4">
+    <img src="src/img/receita-pimentoes.jpg" class="card-img-top card-posicao-imagem">
     <div class="card-body">
       <h5 class="card-title">Pimentões à Juliana</h5>
       <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
       <a href="#" class="btn botao-cor-especial">Veja a Receita</a>
     </div>
-  </div>
+  </article>
 
-  <div class="card" style="width: 18rem;">
+  <article class="card card-largura p-0 m-4" class="card-img-top card-posicao-imagem">
     <img src="src/img/receita-oriental.jpg">
     <div class="card-body">
       <h5 class="card-title">Prato oriental</h5>
       <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
       <a href="#" class="btn botao-cor-especial">Veja a Receita</a>
     </div>
-  </div>
+  </article>
 
-  <div class="card" style="width: 18rem;">
-    <img src="src/img/receita-beterrabas.jpg">
+  <article class="card card-largura p-0 m-4">
+    <img src="src/img/receita-beterrabas.jpg" class="card-img-top card-posicao-imagem img-beterraba">
     <div class="card-body">
       <h5 class="card-title">Beterrabas assadas</h5>
       <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
       <a href="#" class="btn botao-cor-especial">Veja a Receita</a>
     </div>
+  </article>
+</div>
+</section>
+
+<section id="modal">
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
   </div>
+</div>
+
+</section>
+  </main>
   
 
 
